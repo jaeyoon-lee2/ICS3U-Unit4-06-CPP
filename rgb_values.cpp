@@ -10,14 +10,14 @@ main() {
     // this function prints out all the valid RGB values
     int counterR;
     int counterG;
-    int counterB
+    int counterB;
 
     // process & output
     for (counterR = 0; counterR < 256; counterR++) {
         for (counterG = 0; counterG < 256; counterG++) {
             for (counterB = 0; counterB < 256; counterB++) {
                 std::cout << "RGB (" << counterR << "," << counterG << "," 
-                          << counterB << ")";
+                          << counterB << ")" << std::endl;
             }
         }
     }
